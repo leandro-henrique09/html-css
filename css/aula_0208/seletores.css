@@ -1,0 +1,24 @@
+
+#introducao { /* o sinal de "#" indica que estamos selecionando um Id para estilizar*/
+    color: gold /* aqui estamos dizendo o que vamos alterar*/
+}
+
+.codigo{ /* o sinal de "."  indica que vamos estilizar uma classe*/
+    color: blue;
+}
+
+.design {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.grande {
+    font-size: 32px;
+}
