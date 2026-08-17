@@ -1,0 +1,19 @@
+div {
+    background: #aaa;
+    width: 140px;
+    height: 80px;
+    padding: 30px;
+    border: 10px solid darkcyan;
+    margin: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background-color: blueviolet;
+    padding: 20px;
+    border: 4px solid darkcyan;
+    margin: 30px;
+}
