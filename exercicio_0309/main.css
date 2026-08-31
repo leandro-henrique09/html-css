@@ -1,0 +1,37 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial;
+}
+
+.titulo-site {
+    text-align: center;
+    font-size: 64px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu a{
+    padding: 12px 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    max-width: 1000px;
+}
+
+.img-bik {
+    width: 350px;
+}
+
+.info{
+    background-color: #fff;
+}
