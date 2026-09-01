@@ -1,37 +1,107 @@
 body{
     background-color: #f7f7f7;
     font-family: Arial;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
 }
 
-.titulo-site {
-    text-align: center;
-    font-size: 64px;
+.img-bik {
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .menu {
     display: flex;
-    justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu a{
-    padding: 12px 20px;
+    padding: 15px 30px;
     background-color: #fff;
-    text-decoration: none;
     color: #000;
-}
+    border-radius: 4px;
+    text-transform: uppercase;
+} 
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
     max-width: 1000px;
 }
 
-.img-bik {
-    width: 350px;
+.info {
+    background-color: #fff;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
 }
 
-.info{
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background-color: #e21;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.btn-info {
+    background-color: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.subtitulo-grid { 
+    color: #c6c6c6;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+.vantagens {
     background-color: #fff;
+    padding: 40px;
+}
+
+.vantagens-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.vantagens-item p {
+    grid-column: 2;
+}
+
+.rodape {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
 }
